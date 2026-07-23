@@ -7,7 +7,9 @@
     },
     "autoload": {
         "psr-4": {
-            "Confer\\Agents\\": "src/"
+            "Confer\\Agent\\": "src/",
+            "Confer\\Agent\\Database\\": "database/",
+            "Confer\\Agent\\Tests\\": "tests/"
         }
     }
 }
